@@ -1,0 +1,85 @@
+.book {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    padding-bottom: 1rem;
+    /* border-bottom: 1px solid #ccc; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 250px;
+    height: flex;
+    border: 1px solid rgba(0,0,0,.18);
+    margin-bottom: 20px;
+    margin-left: 20px;
+    object-fit: contain;    
+    flex-wrap: wrap;
+}
+
+.book__info {
+    width: 100%;
+    font-size: 40px;
+    
+}
+
+.book h3 {
+    margin: 0 0 0.25rem 0;
+    /* border: 1px solid black; */
+    
+}
+
+.author {
+    font-size: 30px;
+
+}
+
+.description {
+    font-style: italic;
+    text-align: left;
+    word-break: break-all;
+    word-wrap: break-word;
+    font-size: 35px;
+
+}
+
+.price {
+    font-weight: bold;
+    color: #4a69bd;
+    font-size: 50px;
+
+}
+
+.book__info > .picture {
+    width: 100%;
+}
+
+.book__info > button {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    font: inherit;
+    border-radius: 30px;
+    
+    border: 2px solid lightpink;
+    background-color: lightpink;
+    color: black;
+    font-weight: bold;
+    padding: 0.25rem 2rem;
+    cursor: pointer;
+}
+
+.book__info >
+button:hover,
+button:active {
+    background-color: lightcoral;
+    border: 2px solid black;
+}
+
+.image{
+    /* width: 100%;
+    height: 50%; */
+    width: 90%;
+    padding-left: 30px;
+    object-fit: scale-down;
+    position: relative;
+    background-size: cover;
+}

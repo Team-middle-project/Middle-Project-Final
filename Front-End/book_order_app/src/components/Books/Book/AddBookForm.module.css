@@ -1,0 +1,25 @@
+.form {
+    text-align: right;
+    display: flex;
+}
+
+.form > Button {
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    font: inherit;
+    border-radius: 30px;
+    
+    border: 2px solid lightpink;
+    background-color: lightpink;
+    color: black;
+    font-weight: bold;
+    padding: 1;
+    cursor: pointer;
+}
+
+.form > Button:hover,
+.Button:active {
+    background-color: lightcoral;
+    border: 2px solid black;
+}
